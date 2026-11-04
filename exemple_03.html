@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 03</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            border: 1px solid blue;
+            background-color: lightblue;
+            padding: 0.5em;
+        }
+
+        .sidebar-says {
+            display: grid;
+            grid-template-columns: minmax(100px, 25%) 1fr;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Exemplo 03: Sidebar Says</h1>
+        <article class="sidebar-says">
+            <ul>
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+                <li>Quinto</li>
+            </ul>
+            <section>
+                <h2>Texto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo deserunt, fugiat placeat recusandae reprehenderit quis natus quam! Molestiae, repudiandae. Deserunt earum adipisci in eos nihil distinctio necessitatibus hic vel.</p>
+                <p>Enim odit temporibus rem nisi tempora sunt, quisquam iste similique eos alias omnis id soluta cum consequatur inventore. Optio obcaecati officia quasi pariatur? Voluptas, similique laboriosam. Accusamus dolor illum numquam!</p>
+                <p>Id autem nisi, et voluptas molestiae accusantium deleniti laboriosam distinctio numquam atque vitae omnis nam expedita aliquam at! Ut quos at voluptatum animi alias itaque voluptate! Debitis omnis eligendi architecto.</p>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
